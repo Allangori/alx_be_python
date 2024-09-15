@@ -1,7 +1,7 @@
-a = 10
-b = 5
 number1 = int(a)
 number2 = int(b)
+a = 10
+b = 5
 sum = number1 + number2
 difference = number1 - number2
 product = number1 * number2
