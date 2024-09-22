@@ -22,4 +22,4 @@ elif time_bound == "no":
     Reminder += ". Consider completing it when you have free time."
 
 # Print the customized Reminder
-print (f"{Reminder:}" )
+print ( f"{Reminder: }" )
