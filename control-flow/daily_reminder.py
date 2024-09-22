@@ -1,7 +1,7 @@
 
 task = input ( "Enter your task: " )
-time_bound = input ( "Is it time bound? (yes or no): " ).lower()
-priority = input ( "Priority (high, medium, low): " ).lower()
+time_bound = input ( "Is it time-bound? (yes or no): " )
+priority = input ( "Priority (high, medium, low): " )
 
 
 # Process task based on priority
