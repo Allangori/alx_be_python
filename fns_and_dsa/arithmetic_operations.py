@@ -6,11 +6,11 @@ def perform_operation ( num1, num2, operation):
     elif operation == 'multiply':
         return num1 * num2
     elif operation == 'divide':
+        if num2 == 0:
+            return "Error: Division by zero"  
         return num1 / num2
-    elif num1 == 0 or num2 == 0 and operation == 'divide':
-        print("Can't divide a number by zero")
     else :
         print('Choose a function to be performed.')
-        
+
     
 
