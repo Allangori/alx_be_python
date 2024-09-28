@@ -1,7 +1,13 @@
-def num_check(check_num):
-    if (check_num % 2 == 0):
-        print( f"{check_num} is even")
-    elif (check_num % 2 != 0):
-        print( f"{check_num} is odd")
-num_check(3)
-num_check(6)
+
+x = 3
+
+def test(z):
+    global x 
+    x = 'local x'
+    print(x)
+    def testy(y):
+        x = "inner y"
+        print(x)
+    testy("7")
+test("3")
+print(x)
