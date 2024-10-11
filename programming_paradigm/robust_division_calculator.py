@@ -1,0 +1,19 @@
+# robust_division_calculator.py
+
+def safe_divide(numerator, denominator):
+    """Performs division while handling potential errors."""
+    try:
+        # Try to convert both arguments to floats
+        num = float(numerator)
+        denom = float(denominator)
+
+        # Attempt the division
+        result = num / denom
+        return f"The result is: {result:.2f}"
+
+    except ZeroDivisionError:
+        return "Error: Cannot divide by zero."
+
+    except ValueError:
+        return "Error: Non-numeric input provided. Please enter valid numbers."
+
