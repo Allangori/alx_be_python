@@ -18,4 +18,4 @@ class BankAccount:
             return False
 
     def display_balance(self):
-        print( "Current balance: " )
+        print( "Current balance:" )
