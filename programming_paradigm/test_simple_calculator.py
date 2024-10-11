@@ -37,10 +37,11 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertIsNone(self.calc.divide(10, 0))
 
     # Additional edge case tests
-    def test_edge_cases(self):
+    def test_edge_cases(self) :
         # Large numbers
         self.assertEqual(self.calc.add(1e9, 1e9), 2e9)
         self.assertEqual(self.calc.multiply(1e6, 1e6), 1e12)
 
 if __name__ == "__main__":
     unittest.main()
+1
