@@ -16,4 +16,4 @@ class Book:
 book1 = Book('1984', 'George Orwell', 1949)
 #print(book1) unofficial
 #print(repr(book1)) official
-#del book1
+del book1
