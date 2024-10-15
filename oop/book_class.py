@@ -13,7 +13,7 @@ class Book:
         """
         Destructor to print a message when the book instance is deleted.
         """
-        print(f"Deleting '{self.title}'")
+        print(f"Deleting {self.title}")
 
     def __str__(self):
         """
